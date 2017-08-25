@@ -1,0 +1,28 @@
+{
+	"scope": "source.csc",
+	"completions":
+[	
+	
+	"\"script_noteworthy\"",
+	"\"targetname\"",
+	"break;",
+	"continue;",
+	"level",
+	"return;",
+	"script_noteworthy",
+	"targetname",
+	"thread ",
+	"undefined",
+	"function ",
+	{ "trigger": "MakeCents\tInstructions", "contents": "/*\n#####################\nby: M.A.K.E C E N T S\n#####################\nScript:\n\nAdd to main in mapname.csc\n${1:namespace}::init(  );\n\nAdd to top of mapname.csc\n#using scripts\\zm\\ ${2:script name};\n\nAdd to zone file\nscriptparsetree,scripts/zm/ ${2:script name}.csc\n\n###############################################################################\n*/\n\n#namespace ${1:namespace};\nfunction init(){\n\t${3}\n}"},
+	{ "trigger": "GetEnt\tscript_noteworthy","contents": "GetEnt(${1:<clientNum>}, ${2:<name>},${3:\"script_noteworthy\"})"},
+	{ "trigger": "GetEnt\ttargetname","contents": "GetEnt(${1:<clientNum>}, ${2:<name>},${3:\"targetname\"})"},
+	{ "trigger": "GetEntArray\tscript_noteworthy","contents": "GetEntArray(${1:<clientNum>}, ${2:<name>},${3:\"script_noteworthy\"})"},
+	{ "trigger": "GetEntArray\ttargetname","contents": "GetEntArray(${1:<clientNum>}, ${2:<name>},${3:\"targetname\"})"},
+	{ "trigger": "for\t – for loop construct.", "contents": "for(${1};${2};${3})"},
+	{ "trigger": "foreach\t – foreach loop construct.", "contents": "foreach(${1} in ${2})"},
+	{ "trigger": "struct::get\ttargetname", "contents": "struct::get(${1:kvp_value}, ${2:\"targetname\"})"},
+	{ "trigger": "struct::get\tscript_noteworthy;", "contents": "struct::get(${1:kvp_value}, ${2:\"script_noteworthy\"})"},
+	
+	]
+}

@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "COD ColorPicker",
+        "command": "color_pick",
+        "id": "colorpicker",                    
+    }
+]

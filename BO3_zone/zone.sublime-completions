@@ -1,0 +1,33 @@
+{
+	"scope": "source.zone",
+
+	"completions":
+	[	
+	"scriptparsetree",
+	"material",
+	"image",
+	"xanim",
+	"xmodel",
+	"weapon",
+	"weaponfull",
+	"rawfile",
+	"include",
+	"material",
+	{ "trigger": "scriptparsetree\t,scripts/zm/scriptname.gsc","contents": "scriptparsetree,scripts/zm/${1:scriptname}.gsc"},
+	{ "trigger": "scriptparsetree\t,scripts/mp/scriptname.gsc","contents": "scriptparsetree,scripts/mp/${1:scriptname}.gsc"},
+	{ "trigger": "scriptparsetree\t,scripts/zm/scriptname.gsh","contents": "scriptparsetree,scripts/zm/${1:scriptname}.gsh"},
+	{ "trigger": "scriptparsetree\t,scripts/mp/scriptname.gsh","contents": "scriptparsetree,scripts/mp/${1:scriptname}.gsh"},
+	{ "trigger": "scriptparsetree\t,scripts/zm/scriptname.csc","contents": "scriptparsetree,scripts/zm/${1:scriptname}.csc"},
+	{ "trigger": "scriptparsetree\t,scripts/mp/scriptname.csc","contents": "scriptparsetree,scripts/mp/${1:scriptname}.csc"},
+	{ "trigger": "scriptparsetree\t,scripts/folder/scriptname.ext","contents": "scriptparsetree,scripts/${1:folder}/${2:scriptname}.${3:ext}"},
+	{ "trigger": "material\t,material name","contents": "material,${1:name}"},
+	{ "trigger": "image\t,image name","contents": "image,${1:name}"},
+	{ "trigger": "xanim\t,xanim name","contents": "xanim,${1:name}"},
+	{ "trigger": "xmodel\t,xmodel name","contents": "xmodel,${1:name}"},
+	{ "trigger": "weapon\t,weapon name","contents": "weapon,${1:name}"},
+	{ "trigger": "weaponfull\t,weaponfull name","contents": "weaponfull,${1:name}"},
+	{ "trigger": "rawfile\t,share/raw/path to file with ext","contents": "rawfile,${1:path to file w/ext}"},
+	{ "trigger": "rawfile\t,animtrees/filename.atr","contents": "rawfile,animtrees/${1:filename}.atr"},
+	{ "trigger": "include\t,include filename in zone_source","contents": "include,${1:filename in zone_source}"},
+	]
+}

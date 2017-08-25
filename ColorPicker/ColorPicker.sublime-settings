@@ -1,0 +1,11 @@
+{
+    // For upper-case output (#ABCDEF), set "color_upper_case" to true
+    // For lower-case (#abcdef), use false
+    "color_upper_case": true,
+    
+    // Set false to use the default windows colorpicker
+    "win_use_new_picker": true,
+
+    //use cod rgb instead of hex number
+    "cod":true
+}
