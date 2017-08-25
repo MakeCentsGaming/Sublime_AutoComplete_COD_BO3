@@ -12,10 +12,15 @@ Things I've added:
 
 
 Additonal Credit:
+
 https://github.com/weslly/ColorPicker
+
 https://github.com/jnordberg/sublime-colorpick/
+
 https://github.com/animehunter/SublimeColorPickerWindowsOnly
 
 
 
 Instructions can be found here:
+
+https://sites.google.com/site/makecentsgaming/home/scripts_bo3/sublime-autocomplete
