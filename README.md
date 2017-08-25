@@ -1,4 +1,4 @@
-# Sublime_AutoComplete_COD_BO3
+# Sublime_AutoComplete_COD_BO3 for COD_Script
 Auto complete enhanced for sublime for editing cod bo3 csc, gsc, and zone files
 
 Original credit to Treyarch
