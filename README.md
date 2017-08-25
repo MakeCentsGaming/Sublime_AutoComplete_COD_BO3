@@ -5,10 +5,10 @@ Original credit to Treyarch
 
 Things I've added:
 - Every function from every script with arguments and hints
-- Seperation of csc, gsc, zone, mp, and zm
-- Namespaces
+- Seperation of csc, gsc, zone, mp, and zm auto completes
+- Namespace autocompletes from every script
 - Custom helpful auto completes
-- Color picker for colored huds
+- Color picker plugin for colored huds
 
 
 Additonal Credit:
