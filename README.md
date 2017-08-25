@@ -4,7 +4,7 @@ Auto complete enhanced for sublime for editing cod bo3 csc, gsc, and zone files
 Original credit to Treyarch
 
 Things I've added:
-- Every function from every scrxipt
+- Every function from every script with arguments and hints
 - Seperation of csc, gsc, zone, mp, and zm
 - Namespaces
 - Custom helpful auto completes
