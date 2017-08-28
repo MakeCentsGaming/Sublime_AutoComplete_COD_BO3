@@ -8,6 +8,7 @@ Things I've added:
 - Seperation of csc, gsc, zone, mp, and zm auto completes
 - Namespace autocompletes from every script
 - Custom helpful auto completes
+- Comment using ctrl + / and ctrl + shift + /
 - Color picker plugin for colored huds
 
 
