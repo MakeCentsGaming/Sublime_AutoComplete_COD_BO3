@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>source.gsc, source.csc, source.menu</string>
+	<string>source.gsc, source.csc, source.zone, source.gsh</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
