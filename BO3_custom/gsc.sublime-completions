@@ -40,6 +40,7 @@
 	{ "trigger": "minus_to_score\tplayer minus score", "contents": "zm_score::minus_to_player_score(${1:cost})"},
 	{ "trigger": "players", "contents": "players = GetPlayers()" },
 	{ "trigger": "players\twith for loop", "contents": "players = GetPlayers();\nfor( i=0;i<players.size;i++ ){\n\t ${3:players[i]} ${4:thread };\n}" },
+	{ "trigger": "define\tkvp", "contents": "#define ${1:KEY}					${2:\"value\"}"},
 	{ "trigger": "precache\txanim", "contents": "#precache( \"${1:xanim}\", \"${2:yourAnimFileName}\");"},
 	{ "trigger": "using\tanim tree", "contents": "#using_animtree(\"${1:yourATRfile}\");"},
 	{ "trigger": "insert\tshared", "contents": "#insert scripts\\shared\\shared.gsh;" },
