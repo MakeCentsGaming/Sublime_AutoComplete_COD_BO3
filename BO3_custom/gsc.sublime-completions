@@ -18,6 +18,7 @@
 	{ "trigger": "namespace\t#namespace", "contents": "#namespace ${1};"},
 	// { "trigger": "namespace\tnamespace", "contents": "namespace ${1};"},
 	{ "trigger": "using\t#using", "contents": "#using ${1:scripts}${2:\\zm}${3:\\ };"},
+	{ "trigger": "using basics\t#using", "contents": "#using scripts\\shared\\flag_shared;\n#using scripts\\shared\\array_shared;\n#using scripts\\codescripts\\struct;\n#using scripts\\zm\\_zm_score;\n#using scripts\\zm\\_callbacks;"},
 	// { "trigger": "using\tusing", "contents": "using  ${1:scripts}/${2};"},
 	{ "trigger": "add_to_score\tplayer add to score", "contents": "zm_score::add_to_player_score(${1:cost})"},
 	{ "trigger": "flag clear\t", "contents": "flag::clear(${1:flag});" },
